@@ -1,0 +1,5 @@
+# 既存テスト
+
+`Editor/EditMode/ExpressionEvaluatorTests.cs` は元の開発コードに含まれていた式評価・変数操作のテストです。内容とmetaを維持し、NUnit依存のテストが通常のコード導入時に混ざらないようAssetsの外へ置いています。
+
+この公開準備では実行していません。実行にはUnity Test Framework、テスト用アセンブリとRuntimeコードへの参照設定が必要です。
